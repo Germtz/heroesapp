@@ -1,9 +1,8 @@
 import { Routes, RouterModule } from '@angular/router';
-import { NgModule } from '@angular/core';
 
 import { HeroesComponent } from './components/heroes/heroes.component';
 import { HeroeComponent } from './components/heroes/heroe.component';
-import { constants } from 'os';
+
 
 
 const app_routes: Routes = [
@@ -13,8 +12,4 @@ const app_routes: Routes = [
 
 ];
 
-@NgModule({
-    imports: [RouterModule.forChild(routes)],
-    exports: [RouterModule]
-})
 export const APP_ROUTING = RouterModule.forRoot(app_routes);
