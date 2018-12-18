@@ -15,11 +15,15 @@ export class HeroeComponent implements OnInit {
     bio: '',
     casa: 'Marvel'
 
-  }
+  };
 
   constructor() { }
 
   ngOnInit() {
+  }
+
+  guardar() {
+    console.log(this.heroe);
   }
 
 }
